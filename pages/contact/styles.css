@@ -17,8 +17,16 @@ h1 {
 }
 
 .location {
-  background-color: salmon;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-map {
+  width: 80%;
+  height: 500px;
+  border-radius: 15px;
 }
 
 .contact-container {
