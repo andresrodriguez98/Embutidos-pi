@@ -79,10 +79,16 @@
             </div>
 
             <div class="group-fields">
-              <input type="number" name="cantidad" placeholder="Cantidad" />
+              <input
+                type="number"
+                name="cantidad"
+                placeholder="Cantidad"
+                min="1"
+                value="1"
+              />
 
               <select name="product">
-                <option value="">Seleccione</option>
+                <option value="" selected disabled>Seleccione</option>
                 <option value="butifarra">Butifarra</option>
                 <option value="chorizo">Chorizo</option>
               </select>
@@ -95,7 +101,6 @@
             <div class="group-fields">
               <textarea
                 name="nota"
-                rows="5"
                 placeholder="Ej:con arepa y limón"
               ></textarea>
             </div>

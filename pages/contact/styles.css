@@ -74,8 +74,18 @@ h1 {
 }
 
 .group-fields input,
-.group-fields textarea {
+.group-fields textarea,
+.group-fields select {
   width: 100%;
+  font-size: 100%;
+  font-family: inherit;
+  border: none;
+  border-bottom: solid 2px rgb(0, 0, 0);
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
 }
 
 .send-btn {
@@ -91,7 +101,5 @@ h1 {
 .send-btn:hover {
   background-color: #fff;
   color: darkcyan;
-  -webkit-box-shadow: 0px 0px 48px -29px rgba(53, 154, 179, 0.84);
-  -moz-box-shadow: 0px 0px 48px -29px rgba(53, 154, 179, 0.84);
-  box-shadow: 0px 0px 48px -29px rgba(53, 154, 179, 0.84);
+  border: solid 3px darkcyan;
 }
